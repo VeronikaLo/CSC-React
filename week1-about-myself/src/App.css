@@ -1,0 +1,9 @@
+body{
+  background-color: black;
+  color:white;
+}
+
+.container , .pictures{
+  display: flex;
+  justify-content: center;
+}
