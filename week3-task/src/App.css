@@ -61,6 +61,10 @@ input{
   font-family: 'Poppins', sans-serif;
 }
 
+.image{
+  margin-top: 30px;
+}
+
 img{
   border-radius: 50%;
 }
