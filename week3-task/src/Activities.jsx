@@ -17,7 +17,7 @@ export class Activities extends React.Component{
     }
 
     onInputChange =(e)=>{
-        this.setState({userInput:e});
+        this.setState({userInput:e.target.value});
     }
 
     onActivityAdd =(input)=>{
@@ -55,7 +55,7 @@ export class Activities extends React.Component{
                         <input type="text"
                         placeholder='What do you want to do today?'
                         value={this.state.userInput}
-                        onChange={(e) =>{this.onInputChange(e.target.value)}}/>
+                        onChange={this.onInputChange}/>
                     </div>
 
                     <div>
