@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/VeronikaLo/CSC-React/tree/main/week3/static/css/main.6b0f9f8f.css",
+    "main.js": "/VeronikaLo/CSC-React/tree/main/week3/static/js/main.97ad15be.js",
+    "static/js/787.77d4b1d9.chunk.js": "/VeronikaLo/CSC-React/tree/main/week3/static/js/787.77d4b1d9.chunk.js",
+    "static/media/shopping.jpg": "/VeronikaLo/CSC-React/tree/main/week3/static/media/shopping.502f22c786d45737de4b.jpg",
+    "static/media/man.jpg": "/VeronikaLo/CSC-React/tree/main/week3/static/media/man.0d38c6182f4e1301738c.jpg",
+    "index.html": "/VeronikaLo/CSC-React/tree/main/week3/index.html",
+    "main.6b0f9f8f.css.map": "/VeronikaLo/CSC-React/tree/main/week3/static/css/main.6b0f9f8f.css.map",
+    "main.97ad15be.js.map": "/VeronikaLo/CSC-React/tree/main/week3/static/js/main.97ad15be.js.map",
+    "787.77d4b1d9.chunk.js.map": "/VeronikaLo/CSC-React/tree/main/week3/static/js/787.77d4b1d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b0f9f8f.css",
+    "static/js/main.97ad15be.js"
+  ]
+}
