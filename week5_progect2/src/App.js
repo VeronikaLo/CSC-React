@@ -25,7 +25,7 @@ function App() {
 
       {hotels.map((hotel=>{
 
-        const{id, hotelName, description, image, source, showMore } = hotel;
+        const{ id, hotelName, description, image, source, showMore } = hotel;
         return(
           <div key={id}>
             <div className='container'>
