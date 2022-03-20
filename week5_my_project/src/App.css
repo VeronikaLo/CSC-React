@@ -1,0 +1,92 @@
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2{
+  
+  letter-spacing: 2px;
+  color: turquoise;
+  
+  text-shadow: 1px 2px 2px lightslategrey;
+}
+
+h1{
+  font-size: 40px;
+}
+
+p{
+  text-align: center;
+}
+
+
+
+.picture{
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.btn_pictures{
+  width: 120px;
+  height: 50px;
+  background-color: turquoise ;
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 2px 5px 3px  grey;
+}
+
+.btn_pictures:hover, .btn_hotels:hover{
+  box-shadow: 2px 8px 5px  grey;
+  cursor: pointer;
+}
+
+.hotels{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+a{
+  display: inline-block;
+  margin: 20px;
+}
+
+.btn_hotels{
+  background-color: turquoise;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 2px 5px 3px  grey;
+}
+
+.btn_hotels2{
+  background: lightgoldenrodyellow;
+  font-style: italic;
+  border: none;
+  font-size: 18px;
+  color: turquoise;
+  cursor: pointer;
+}
+
+.extra{
+  width: 150px;
+  background-color: pink;
+}
