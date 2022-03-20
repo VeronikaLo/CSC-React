@@ -13,7 +13,7 @@ function App() {
   }
 
   const handleClick = (hotel)=>{
-    hotel.showMore = !hotel.showMore
+    hotel.show = !hotel.show
     setShow(!show);
   }
 
@@ -25,7 +25,7 @@ function App() {
 
       {hotels.map((hotel=>{
 
-        const{ id, hotelName, description, image, source, showMore } = hotel;
+        const{ id, hotelName, description, image, source, show } = hotel;
         return(
           <div key={id}>
             <div className='container'>
@@ -33,7 +33,7 @@ function App() {
             </div>
             <div className='container'>
               <p>{ show ? description : description.substring(0, 200) + "..."}
-              <button onClick={()=>handleClick(hotel)}> {showMore? "Show less": "Show more"}</button>
+              <button onClick={()=>handleClick(hotel)}> {show? "Show less": "Show more"}</button>
               </p>
             </div>
             <div className='container'>
