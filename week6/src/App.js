@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // for routing:
-import { BrowserRouter as Router,Routes,Route,Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes , Route,Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About"
 import Birds from "./Birds";
@@ -25,8 +25,8 @@ function App() {
       <Routes>
         <Route path="/about" element= {<About/>}/>
         <Route path="/home" element= {<Home/>}/>
-        <Route path="/home" element= {<Birds bird={birds}/>}/>
-        <Route path="/home" element= {<Dogs dog ={dogs}/>}/>
+        <Route path="/birds" element= {<Birds bird={birds}/>}/>
+        <Route path="/dogs" element= {<Dogs dog ={dogs}/>}/>
       </Routes>
       
       
